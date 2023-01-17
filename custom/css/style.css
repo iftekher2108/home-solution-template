@@ -23,7 +23,8 @@ body {
     font-family: poppins-bold;
     src: url(fonts/poppins/Poppins-ExtraBold.otf);
 }
-nav {
+nav.navbar.navbar-expand-sm.navbar-dark.bg-dark.d-flex.align-items-center.justify-content-between.p-3
+{
     top: 0;
     position: sticky;
     position: -webkit-sticky;
@@ -92,4 +93,11 @@ nav a:hover {
 }
 .product h2:hover i {
     transform: rotate(-90deg) translateY(10px);
+}
+
+
+button.navbar-toggler.d-lg-none,button.navbar-toggler.d-lg-none:focus {
+    background: #000 !important;
+    box-shadow: none;
+    border: none !important;
 }

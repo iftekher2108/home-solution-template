@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home solution template</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="custom/css/style.css">
@@ -13,19 +13,44 @@
 </head>
 <body>
 
-    <nav class="nav bg-dark d-flex align-items-center justify-content-between p-3">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark d-flex align-items-center justify-content-between p-3">
+      <div class="container">
         <div>
-            <img src="" alt="website logo" height="50" width="70">
+            <img src="image/logo.png" alt="website logo" height="50" width="70">
         </div>
-<div class="d-flex gap-5 justify-content-center align-content-center">
-      <a class="nav-link active text-white" href="#" aria-current="page">Home</a>
-      <a class="nav-link text-white" href="#">Project</a>
-      <a class="nav-link text-white" href="#">Contract</a>
-      <button class="px-4 py-0 btn btn-danger rounded-5"><a href="#" class="nav-link text-white">Log in</a></button>
-</div>
-    </nav>
+        <a class="navbar-brand" href="#"><span style="color: #eb5757;">Home</span> solution</a>
+     
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 gap-lg-4 mx-5">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">project</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li> -->
+            </ul>
+
+            <button class="px-5 py-1 btn btn-danger rounded-5"><a href="#" class="nav-link text-white">Log in</a></button>
+
+        </div>
+  </div>
+</nav>
 <div class="container">
-    <div class="d-lg-flex flex-lg-row flex-sm-column-reverse mt-4 gap-5 align-content-center">
+    <div class="d-lg-flex flex-lg-row flex-sm-column-reverse mt-3 gap-5 align-content-center">
         <div class="col-md-12 col-md-12 col-lg-5"> 
             
             <div class="content">
@@ -52,10 +77,10 @@
 
         </div>
         </div>
-        <div class="col-md-12 col-md-12 col-lg-5">
-            <img src="image/bg-image.png" class="rounded-5 mt-3" alt="hero image" height="300" width="500"> 
+        <div class="col-md-12 col-md-12 col-lg-5 m-auto">
+            <img src="image/bg-image.png" class="rounded-5 img-fluid" alt="hero image"> 
        <div class="m-sm-auto m-auto product">
-        <img src="image/bg-image-2.png" class="my-4 rounded-3" alt="hero image2" height="150" width="500">
+        <img src="image/bg-image-2.png" class="my-4 rounded-3 img-fluid" alt="hero image2">
         <h2>Our products <i class="fa-solid fa-arrow-down"></i></h2>
        </div>
         </div>
